@@ -1,12 +1,11 @@
 ## Due Thursday 4/8:
 
-1.  Calculate a new field using already existing fields in the `CA_Counties_2019.shp` dataset or another dataset of your choosing.
-
-2. Create a geojson named `lab1.geojson` and add it to your repository.
-
-3. Create a new markdown file called `lab1.md` and explain the following:
-   -  What fields you used
-   -  Why you used these fields
-   -  What problems could the data set have
-4. Commit both `lab1.geojson` and `lab1.md` to your repository and push it to GitHub.
-5. Fill out this form so I can associate you with your GitHub repo: [https://forms.gle/J8kebeHEd5xbGaiRA](https://forms.gle/J8kebeHEd5xbGaiRA)
+1.  What fields you used
+   -  I used the fields "MIXED" and "TOTAL_POP."
+2. Why you used these fields
+   - I used these fields because I was intrigued by the idea of determining the percentage of Mixed identifying folks out of the total population in each county in California. As a mixed individual, I find this data especially illuminating and empowering to those who identify in a manner similar to myself. I wanted to see which counties had the most publicly identifying mixed folks and see if there were any differences across the state. After taking a Politics of the Suburbs class last quarter, I wanted to see if the data/map produced indicated any sort of evidence for settlement patterns due to racially restrictive covenants in certain counties. This initial question will require much more specific mapping though, perhaps by census tract rather than county line. Nonetheless, my interest in data on mixed folks like myself persists!
+3. What problems could the data set have
+   - Especially for data on mixed folks, the data could be inherently flawed due to ambiguity of what it is to identify as a "mixed" individual. If those individuals surveyed for their identities were not provided with a clear definition of what it is to be "mixed" then the data could potentially be not truly reflective of mixed populations.
+   - Furthermore, the data is from 2019. The definition of what it is to be "mixed" is consistently evolving with greater conversation in the political realm. The current definition of "mixed" could be very different from the 2019 definition of mixed, thereby again leaving opportunity for the data to not truly reflect mixed populations across the state.
+   - Individuals who are mixed could have also chosen to identify as their most salient identity, i.e. "Asian" or "Black"; this would further reduce the accuracy of the graph.
+   - Most broadly, issues of identity plague the entire dataset; the data begs the questions of how it was collected, whose narratives were uplifted, and whether or not communities were consulted in the portrayal of their percentages and populations. I think it's helpful to always practice a distinct level of critique when assessing data such as that in the map.
