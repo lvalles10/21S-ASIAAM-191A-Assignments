@@ -1,7 +1,7 @@
 ## Due Thursday 4/8:
 
 1.  What fields you used
-   -  I used the fields "MIXED" and "TOTAL_POP."
+   -  I used the fields "MIXED" and "TOTAL_POP" to create "MIXED_TOT" which is "MIXED" / "TOTAL_POP."
 2. Why you used these fields
    - I used these fields because I was intrigued by the idea of determining the percentage of Mixed identifying folks out of the total population in each county in California. As a mixed individual, I find this data especially illuminating and empowering to those who identify in a manner similar to myself. I wanted to see which counties had the most publicly identifying mixed folks and see if there were any differences across the state. After taking a Politics of the Suburbs class last quarter, I wanted to see if the data/map produced indicated any sort of evidence for settlement patterns due to racially restrictive covenants in certain counties. This initial question will require much more specific mapping though, perhaps by census tract rather than county line. Nonetheless, my interest in data on mixed folks like myself persists!
 3. What problems could the data set have
