@@ -36,4 +36,4 @@ function createButtons(lat,lng,title){
 addMarker(37.79632,-122.40496,'International Hotel','home land!')
 addMarker(37.7809, -122.4092,'Bayanihan Center','where i work land!')
 addMarker(37.78173663186071, -122.40752259325303,'Pilipino Senior Resource Center','random location')
-addMarker(37.778759933059554, -122.41127863540447,'Asian Pacific Isalnder Legal Outreach','another random location')
+addMarker(37.778759933059554, -122.41127863540447,'Asian Pacific Islander Legal Outreach','another random location')
