@@ -1,0 +1,51 @@
+body{
+    font-family:'Courier New', Courier, monospace;
+    display:grid;
+    grid-template-rows: .1fr .7fr .1fr;
+    grid-template-columns: 1fr 1fr 1fr; /* this creates an even two column layout*/
+    grid-template-areas: "header header header" "contentspanel mappanel sidepanel" "footer footer footer" /* this creates one row with map panel on the left and sidepanel on the right */
+}
+
+header{
+    grid-area: header;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(115, 226, 193)
+}
+
+footer{
+    grid-area: footer;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(115, 226, 193);
+}
+
+#contents{
+    font-family: 'Courier New', Courier, monospace;
+    grid-area: contentspanel;
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 2px dotted black;
+}
+
+#map{
+    height:90vh;
+    grid-area: mappanel;
+} 
+
+#survey {
+    grid-area: sidepanel;
+    overflow: hidden;
+    /* 16:9 aspect ratio */
+    padding-top: 0%;
+    position: relative;
+}
+
+#survey iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
