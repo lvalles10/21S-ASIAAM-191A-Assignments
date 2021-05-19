@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basic Leaflet Map</title>
+        <meta charset="utf-8" />
+        <link rel="shortcut icon" href="#">
+        <link rel="stylesheet" href="style/style.css">
+
+        <!-- Leaflet's css-->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+
+        <!-- Leaflet's JavaScript-->
+        <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    </head>
+    
+    <body>
+    <header><h1>Trail Tales from the Pandemic</h1>
+    <h3>Check out which trails folks have used during COVID to stay happy and healthy! See which ones you should add to your roster and which ones were less enjoyable. </h3></header>
+       <div id="contents"></div>
+       <div id="map"></div>
+       <div id="survey">
+        <!-- this is the iframe for our survey -->
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSesIoZOmydJGPpO4TVJvxlRmSAY1e17XqVp3jFm1nA0bQ4daA/viewform?embedded=true" width="640" height="549" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+        </div>
+        <footer><h3>In an effort to spread opportunities for exercise across the state of CA, this webpage seeks to empower folks with knowledge of multi-use trails.</h3>
+        <h5>Exercise is a key tennant of mental and physical health- I hope this page gives people the motivation and knowledge to prioritize their self-care in the pandemic and beyond!</h5></footer>
+        <script src="js/init.js"></script>
+    </body>
+</html>
